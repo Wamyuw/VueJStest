@@ -113,10 +113,10 @@ const app = Vue.createApp({
         },
         getImageForResult(type) {
             const images = {
-                relajado: 'path/to/lazy-cat.jpg',
-                juguetón: 'path/to/playful-cat.jpg',
-                tierno: 'path/to/sweet-cat.jpg',
-                aventurero: 'path/to/adventurous-cat.jpg'
+                relajado: 'img/tranquilo.png',
+                juguetón: 'img/jugueton.png',
+                tierno: 'img/tierno.png',
+                aventurero: 'img/aventurero.png'
             };
             return images[type] || '';
         },
