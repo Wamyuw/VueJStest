@@ -26,7 +26,7 @@
         <div v-if="step === questions.length">
             <h3>¡Tu resultado!</h3>
             <p>{{ resultMessage }}</p>
-            <img v-if="resultImage" :src="resultImage" alt="Tipo de gato" class="img-fluid mt-3" />
+            <img v-if="resultImage" :src="resultImage" alt="Tipo de gato" style="width: 150px; height: auto;" class="img-fluid mt-3" />
             <button class="btn btn-success" @click="reset">Reiniciar</button>
         </div>
     </section>
@@ -38,3 +38,4 @@
     <script src="js/script.js"></script>
 </body>
 </html>
+
