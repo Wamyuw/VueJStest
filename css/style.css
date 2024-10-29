@@ -1,28 +1,77 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    font-family: 'Arial', sans-serif;
+    background: radial-gradient(circle, rgba(24, 24, 24, 0.9) 0%, rgba(0, 0, 0, 1) 100%);
+    color: #e1e1e1; /* Texto gris claro */
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    margin-bottom: 20px;
-    background-color: #007bff;
-    padding: 20px;
-    color: white;
+    background: linear-gradient(135deg, #d32f2f, #1976d2); /* Rojo y azul */
+    padding: 40px 20px;
+    color: #ffffff;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 footer {
     margin-top: 20px;
+    padding: 20px;
+    background-color: #121212; /* Color oscuro */
+    color: #e1e1e1; /* Texto claro */
     text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.5);
 }
 
 .container {
-    max-width: 800px;
+    max-width: 600px;
     margin: auto;
-    padding: 20px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    background: #424242; /* Fondo gris claro */
+    border-radius: 20px;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+h3 {
+    color: #f44336; /* Rojo más claro para las preguntas */
+    margin-bottom: 20px;
+}
+
+.form-check {
+    margin: 20px 0;
+}
+
+.form-check-input {
+    cursor: pointer;
+}
+
+.btn {
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: #1976d2; /* Azul vibrante */
+    color: white;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #0d47a1; /* Azul más oscuro al pasar el mouse */
+    transform: translateY(-2px);
 }
 
 .img-fluid {
@@ -32,5 +81,6 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
-
